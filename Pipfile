@@ -6,9 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==2.2.*"
+django = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
